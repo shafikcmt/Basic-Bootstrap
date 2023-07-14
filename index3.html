@@ -160,6 +160,51 @@
             <li class="dropdown-item">Menu-5</li>
         </ul>
     </div>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <h1 class="text-center bg-primary p-2 text-white">Bootstrap Collapse</h1>
+<hr>
+<hr>
+<button type="button" class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#test">Pragraph</button>
+<div class="collapse" id="test">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur nulla autem deleniti, provident libero aliquam eligendi veniam ad quo perspiciatis sit. Temporibus, quidem accusantium reprehenderit doloremque voluptate itaque explicabo rerum nam sapiente voluptatibus ducimus laborum ipsam voluptatum enim fugit nisi? Provident aspernatur est eligendi earum, delectus reprehenderit dolor officiis recusandae!</p>
+</div>
+<hr>
+<hr>
+<button type="button" class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#test1">Pragraph</button>
+<div class="collapse show" id="test1">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur nulla autem deleniti, provident libero aliquam eligendi veniam ad quo perspiciatis sit. Temporibus, quidem accusantium reprehenderit doloremque voluptate itaque explicabo rerum nam sapiente voluptatibus ducimus laborum ipsam voluptatum enim fugit nisi? Provident aspernatur est eligendi earum, delectus reprehenderit dolor officiis recusandae!</p>
+</div>
+<hr>
+<hr>
+<div id="accordion">
+    <div class="card">
+        <div class="card-header">
+            <a class="btn" data-bs-toggle="collapse" data-bs-target="#para-1">Pragraph-1</a>
+        </div>
+        <div class="card-body collapse show" id="para-1" data-bs-parent="#accordion">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati dolorum est expedita ducimus eveniet laborum, at blanditiis, et, odit accusantium aliquid nostrum quidem necessitatibus! Corrupti nisi rerum incidunt omnis sunt unde, nam voluptate fugit voluptates eligendi! Reiciendis, maxime modi molestias soluta ab, repudiandae quas ad veritatis aspernatur, cupiditate expedita quis.</p>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-header">
+            <a class="btn" data-bs-toggle="collapse" data-bs-target="#para-2">Pragraph-2</a>
+        </div>
+        <div class="card-body collapse" id="para-2" data-bs-parent="#accordion">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati dolorum est expedita ducimus eveniet laborum, at blanditiis, et, odit accusantium aliquid nostrum quidem necessitatibus! Corrupti nisi rerum incidunt omnis sunt unde, nam voluptate fugit voluptates eligendi! Reiciendis, maxime modi molestias soluta ab, repudiandae quas ad veritatis aspernatur, cupiditate expedita quis.</p>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-header">
+            <a class="btn" data-bs-toggle="collapse" data-bs-target="#para-3">Pragraph-3</a>
+        </div>
+        <div class="card-body collapse" id="para-3" data-bs-parent="#accordion">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati dolorum est expedita ducimus eveniet laborum, at blanditiis, et, odit accusantium aliquid nostrum quidem necessitatibus! Corrupti nisi rerum incidunt omnis sunt unde, nam voluptate fugit voluptates eligendi! Reiciendis, maxime modi molestias soluta ab, repudiandae quas ad veritatis aspernatur, cupiditate expedita quis.</p>
+        </div>
+    </div>
+</div>
     <br><br><br><br><br><br><br><br><br><br>
   </div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
